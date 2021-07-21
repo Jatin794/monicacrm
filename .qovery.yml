@@ -30,5 +30,5 @@ db:
 volumes:
 data:
   name: data
-mysql:
-  name: mysql
+#mysql:
+#  name: mysql
