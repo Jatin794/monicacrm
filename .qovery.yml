@@ -10,8 +10,8 @@ app:
   environment:
     - APP_KEY=GQBxWCapyPcmzi4px138cdIaAwsg45j0NWf8LZcIFbQ=
     - DB_HOST=db
-    - DB_USERNAME=monica
-    - DB_PASSWORD=secret
+    - DB_USERNAME=mysql
+    - DB_PASSWORD=Plnw5vc8P3JPMVz8
   volumes:
     - data:/var/www/html/storage
   restart: always
@@ -20,9 +20,9 @@ db:
   image: mysql:5.7
   environment:
     - MYSQL_RANDOM_ROOT_PASSWORD=true
-    - MYSQL_DATABASE=monica
-    - MYSQL_USER=monica
-    - MYSQL_PASSWORD=secret
+    - MYSQL_DATABASE=mysql
+    - MYSQL_USER=root
+    - MYSQL_PASSWORD=Plnw5vc8P3JPMVz8
   volumes:
     - mysql:/var/lib/mysql
   restart: always
