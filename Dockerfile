@@ -1,2 +1,2 @@
-FROM ghost
-EXPOSE 2368
+FROM monica
+EXPOSE 8080
