@@ -10,7 +10,7 @@ app:
   environment:
     - APP_KEY=GQBxWCapyPcmzi4px138cdIaAwsg45j0NWf8LZcIFbQ=
     - DB_HOST=db
-    - DB_USERNAME=mysql
+    - DB_USERNAME=root
     - DB_PASSWORD=Plnw5vc8P3JPMVz8
   volumes:
     - data:/var/www/html/storage
