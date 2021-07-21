@@ -1,15 +1,15 @@
 application:
-  name: ghost
+  name: monica
   project: CHANGEME
   organization: CHANGEME
   storage:
-  - name: ghost-data
+  - name: monica-data
     type: ssd
     size: 5GB
-    mount_point: /var/lib/ghost/content
+    mount_point: /var/lib/monica/content
 routers:
-- name: ghost-router
+- name: monica-router
   routes:
-  - application_name: ghost
+  - application_name: monica
     paths:
     - "/"
